@@ -21,16 +21,17 @@
 
         <CollectionView Grid.Row="2" x:Name="CvNews">
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Horizontal" ItemSpacing="15"/>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="15"/>
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Padding="10">
-                        <Image HeightRequest="200"/>
-                        <Label FontSize="Medium"/>
+                        <Image HeightRequest="200" Source="{Binding Image}"/>
+                        <Label FontSize="Medium" Text="{Binding Title}" />
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+        
     </Grid>
 </ContentPage>
