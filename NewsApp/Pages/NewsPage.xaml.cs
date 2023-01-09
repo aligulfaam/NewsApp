@@ -1,5 +1,5 @@
 using NewsApp.Models;
-using NewsApp.Services;
+using NewsApp.services;
 
 namespace NewsApp.Pages;
 
