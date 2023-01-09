@@ -25,4 +25,4 @@ public partial class NewsPage : ContentPage
 }
 
 
-//Notes
+//Notes again.
